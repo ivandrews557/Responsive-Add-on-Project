@@ -85,7 +85,8 @@ section.secondary {
 }
 
 header {
-    background-image:url("images/American.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("../images/Richmond.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -182,7 +183,7 @@ footer {
     color: white;
     background-image: linear-gradient(rgba(39, 32, 68, 0.9),
             rgba(39, 32, 68, 0.9)),
-        url("../images/lisbon-footer.png");
+        url("../images/Science.jpg");
 
     background-repeat: no-repeat;
     background-size: cover;
@@ -250,7 +251,3 @@ footer a {
         aspect-ratio: 16 / 9;
     }
 }
-
-
-
-
